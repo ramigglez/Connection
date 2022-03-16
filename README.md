@@ -40,5 +40,13 @@
 <pre>
     $connect = new Connection;
 
+    $connect->set_driver ('string');
+    $connect->set_host ('string');
+    $connect->set_data_base ('string');
+    $connect->set_port ('string');
+    $connect->set_password ('string');
+    $connect->set_user_name ('string');
+    $connect->set_charset ('string');
+
     $connect->connect(1);
 </pre>
