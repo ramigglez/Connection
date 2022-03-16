@@ -47,6 +47,12 @@
     $connect->set_password ('string');
     $connect->set_user_name ('string');
     $connect->set_charset ('string');
-
-    $connect->connect(1);
 </pre>
+
+## To show a message on the screen use
+
+<h2>$connect->connect(1);</h2>
+
+## To get the result (the connection object perse) of the connection use
+
+<h2>$connect->connect();</h2>
