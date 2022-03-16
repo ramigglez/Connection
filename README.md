@@ -51,8 +51,8 @@
 
 ## To show a message on the screen use
 
-<h2>$connect->connect(1);</h2>
+<pre>$connect->connect(1);</pre>
 
 ## To get the result (the connection object perse) of the connection use
 
-<h2>$connect->connect();</h2>
+<pre>$connect->connect();</pre>
