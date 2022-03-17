@@ -17,7 +17,7 @@
 ## Methods
 
 <ol>
-    <li>__construct () {}</li>
+    <li>__construct (array $setting) {}</li>
     <li>connect (int $mssg = 0)</li>
     <li>set_driver (string $x)</li>
     <li>set_host (string $x)</li>
