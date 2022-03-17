@@ -13,7 +13,17 @@ class Connection {
         'charset' => 'utf8mb4'
     ];
 
-    public function __construct () {}
+    public function __construct (array $setting = [
+        'driver' => 'mysql',
+        'host' => 'localhost',
+        'data_base' => 'web',
+        'port' => '3306',
+        'password' => '',
+        'user_name' => 'root',
+        'charset' => 'utf8mb4'
+    ]) {
+        $this->setting = $setting;
+    }
 
     public function connect (int $mssg = 0) {
         try {
